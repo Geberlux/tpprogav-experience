@@ -25,15 +25,7 @@
     </tr>
   </tbody>
 </table>
-		Historial de versiones del documento
-Versión
-Fecha
-Descripción
-Autor
-1.0
-05/12/25
-inicio de documento
-Martinez Lopez Heber Lucio
+
 
 
 Tabla de contenidos
@@ -63,7 +55,7 @@ Limitaciones
 De momento el programa solo está enfocado para su uso en computadoras.
 Requisitos no funcionales globales
 
-	RNFG1: El sistema funcionara en windows 
+RNFG1: El sistema funcionara en windows 
 RNFG2: Deberá tener en el disco duro minimamente 4 gb
 
 
@@ -90,9 +82,9 @@ RFC9:El Admin puede visualizar las categorías
 RFC10:El Admin puede crear las categorías
 RFC11:El Admin puede editar las categorías
 RFC12:El Admin puede eliminar las categorías
-	RFC13: El Admin puede crear pedidos
+RFC13: El Admin puede crear pedidos
 RFC14: El Admin puede editar sus pedidos
-	RFC15: El Admin puede eliminar sus pedidos
+RFC15: El Admin puede eliminar sus pedidos
 RFC16: El Admin puede revisar sus pedidos
 	
 
@@ -110,7 +102,7 @@ no aplica.
 Glosario
 Ejemplo: 
 Loguearse: Ingresar al sistema
-	</p>
+</p>
     
 
 
