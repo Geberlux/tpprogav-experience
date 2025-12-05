@@ -29,20 +29,20 @@
 
 
 Tabla de contenidos
-1.	Objetivo	1
-2.	Beneficios	1
-3.	Alcance	1
-4.	Limitaciones	2
-5.	Requisitos no funcionales globales	2
-	Módulos	2
-5.1.	[clases]	2
-5.1.1.	Requisitos funcionales	2
-5.1.2.	Requisitos no funcionales	2
-5.2.	[nombre de otro módulo]	2
-5.2.1.	Requisitos funcionales	2
-5.2.2.	Requisitos no funcionales	2
-6.	Prototipos de interfaz	2
-7.	Glosario	2
+1.	Objetivo	
+2.	Beneficios	
+3.	Alcance	
+4.	Limitaciones	
+5.	Requisitos no funcionales globales	
+	Módulos	
+5.1.	[clases]	
+5.1.1.	Requisitos funcionales	
+5.1.2.	Requisitos no funcionales	
+5.2.	[nombre de otro módulo]	
+5.2.1.	Requisitos funcionales	
+5.2.2.	Requisitos no funcionales	
+6.	Prototipos de interfaz	
+7.	Glosario	
 
 Objetivo
 El objetivo es brindar un servicio para compra y venta de productos, compra por el lado de los clientes del comercio y la venta por parte de los involucrados del comercio.
