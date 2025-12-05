@@ -184,7 +184,7 @@ public class Persona {
 					menu4();
 					break;
 				case 3:
-					JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
+					menu5();
 			        break;
 				case 4:
 					JOptionPane.showMessageDialog(null, "Saliendo");
@@ -197,40 +197,24 @@ public class Persona {
 			
 		} else if (this.getRol().equals("cliente")){
 		
-		String[] opciones = { "Armar Pedido", "Productos", "Ver Pedido", "Editar Pedido", "Eliminar Pedido", "Buscar Pedido", "Salir" };
+		String[] opciones = { "Pedido", "Productos", "Salir" };
 		int opcion;
 		do {
 			opcion = JOptionPane.showOptionDialog(null, "elija opción", null, 0, 0, null, opciones, opciones);
 			switch (opcion) {
 			case 0:
-
-				JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-		        break;
-			case 1:
 				menu5();
 			
 				break;
-			case 2:
-				JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-		        break;
-			case 3:
-
-				JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-		        break;
-			case 4:
-				JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-		        break;
-			case 5:
-				JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-		        break;
-			case 6:
-				JOptionPane.showMessageDialog(null, "Saliendo");
+			case 1:
+				JOptionPane.showMessageDialog(null, Producto.mostrarProductos());
 				break;
-			default:
+			case 2:
+				JOptionPane.showMessageDialog(null, "Saliendo");
 				break;
 			}
 
-		} while (opcion != 6);
+		} while (opcion != 2);
 		
 		}
 		
@@ -367,22 +351,24 @@ public void menu5() {
 		opcion = JOptionPane.showOptionDialog(null, "elija opción", null, 0, 0, null, opciones, opciones);
 		switch (opcion) {
 		case 0:
-			JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-	        break;
+		    Pedido.crearPedidoInteractivo(this.getId());
+		    break;
+
 		case 1:
 			JOptionPane.showMessageDialog(null, Producto.mostrarProductos());
 			break;
 		case 2:
+		    Pedido.editarPedidoInteractivo(this.getId());
+		    break;
 
-			JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-	        break;
 		case 3:
-			JOptionPane.showMessageDialog(null, "Estamos en ello!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
-	        break;
+		    Pedido.eliminarPedidoInteractivo(this.getId());
+		    break;
+
 		case 4:
-			DtoProducto.buscarPorIDConFiltro();
-			//JOptionPane.showMessageDialog(null, encontrado);
-			break;
+		    Pedido.mostrarPedidosUsuario(this.getId());
+		    break;
+
 		case 5:
 			JOptionPane.showMessageDialog(null, "Saliendo");
 			break;

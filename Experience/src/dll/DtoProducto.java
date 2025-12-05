@@ -197,5 +197,33 @@ public class DtoProducto {
         }
         return productos;
     }
+	
+	public static Producto obtenerProductoPorID(int idBuscado) {
+	    Producto producto = null;
+
+	    try {
+	        PreparedStatement stmt = con.prepareStatement(
+	            "SELECT * FROM producto WHERE idproducto = ?"
+	        );
+	        stmt.setInt(1, idBuscado);
+
+	        ResultSet rs = stmt.executeQuery();
+
+	        if (rs.next()) {
+	            int categoria = rs.getInt("categoria_idcategoria");
+	            String nombre = rs.getString("nombre");
+	            String precio = rs.getString("precio");
+	            String cantidad = rs.getString("cantidad");
+
+	            producto = new Producto(idBuscado, categoria, nombre, precio, cantidad);
+	        }
+
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+
+	    return producto;
+	}
+
 
 }
