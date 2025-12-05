@@ -7,6 +7,34 @@
 </head>
 <body>
 	<p>
+
+		<table>
+  <caption>
+    Front-end web developer course 2021
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Versión</th>
+      <th scope="col">Fecha</th>
+      <th scope="col">Descripción</th>
+		<th scope="col">Autor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1.0</th>
+      <td>05/12/25</td>
+      <td>inicio de documento</td>
+		<td>Martinez Lopez Heber Lucio</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="2">Average age</th>
+      <td>33</td>
+    </tr>
+  </tfoot>
+</table>
 		Historial de versiones del documento
 Versión
 Fecha
