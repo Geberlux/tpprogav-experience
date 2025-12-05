@@ -8,9 +8,6 @@
 <body>
 	<p>
 <table>
-  <caption>
-    Front-end web developer course 2021
-  </caption>
   <thead>
     <tr>
       <th scope="col">Versión</th>
