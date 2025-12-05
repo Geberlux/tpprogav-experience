@@ -27,12 +27,6 @@
 		<td>Martinez Lopez Heber Lucio</td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row" colspan="2">Average age</th>
-      <td>33</td>
-    </tr>
-  </tfoot>
 </table>
 		Historial de versiones del documento
 Versión
