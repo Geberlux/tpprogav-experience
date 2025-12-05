@@ -34,15 +34,15 @@ Tabla de contenidos
 3.	Alcance	
 4.	Limitaciones	
 5.	Requisitos no funcionales globales	
-	Módulos	
-5.1.	[clases]	
-5.1.1.	Requisitos funcionales	
-5.1.2.	Requisitos no funcionales	
-5.2.	[nombre de otro módulo]	
-5.2.1.	Requisitos funcionales	
-5.2.2.	Requisitos no funcionales	
-6.	Prototipos de interfaz	
-7.	Glosario	
+	Módulos	<br>
+5.1.	[clases] <br>	
+5.1.1.	Requisitos funcionales <br>	
+5.1.2.	Requisitos no funcionales	<br>
+5.2.	[nombre de otro módulo]	<br>
+5.2.1.	Requisitos funcionales	<br>
+5.2.2.	Requisitos no funcionales	<br>
+6.	Prototipos de interfaz	<br>
+7.	Glosario	<br>
 
 Objetivo
 El objetivo es brindar un servicio para compra y venta de productos, compra por el lado de los clientes del comercio y la venta por parte de los involucrados del comercio.
