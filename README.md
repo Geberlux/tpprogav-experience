@@ -7,8 +7,7 @@
 </head>
 <body>
 	<p>
-
-		<table>
+<table>
   <caption>
     Front-end web developer course 2021
   </caption>
